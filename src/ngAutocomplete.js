@@ -101,6 +101,7 @@ angular.module( "ngAutocomplete", [])
               }
             }
           }
+          scope.$emit('ngAutocomplete:place_changed', scope.gPlace);
         })
 
         //function to get retrieve the autocompletes first result using the AutocompleteService 
